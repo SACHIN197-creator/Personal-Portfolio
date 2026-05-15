@@ -38,7 +38,9 @@ This is my Personal Portfolio Website built using HTML, CSS, JavaScript, and Dja
 ![portfolio page](portfolio.png)
 ![portfolio details](portfolio2.png)
 ![portfolio details](portfolio3.png)
-
+![portfolio page](portfolio4.png)
+![portfolio details](portfolio5.png)
+![portfolio details](portfolio6.png)
 
 ## 👨‍💻 Author
 
