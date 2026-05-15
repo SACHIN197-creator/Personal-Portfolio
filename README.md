@@ -6,7 +6,7 @@ This is my Personal Portfolio Website built using HTML, CSS, JavaScript, and Dja
 
 ## 🚀 Live Demo
 👉 [Click here to view live project](#)  
-(Replace # with your deployed link)
+(https://personal-portfolio-ywxz.onrender.com/)
 
 ---
 
