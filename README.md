@@ -33,5 +33,23 @@ This is my Personal Portfolio Website built using HTML, CSS, JavaScript, and Dja
 - Git & GitHub
 
 ---
+  ## Screenshot
+
+![portfolio page](portfolio.png)
+![portfolio details](portfolio2.png)
+![portfolio details](portfolio3.png)
+
+
+## 👨‍💻 Author
+
+Sachin Kumar
+
+### LinkedIn
+[LinkedIn Profile](https://www.linkedin.com/in/sachin-kumar-362b53343/)
+
+### GitHub
+[GitHub](https://github.com/SACHIN197-creator)
+
+---
 
 
