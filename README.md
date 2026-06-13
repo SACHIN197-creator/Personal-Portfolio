@@ -35,14 +35,14 @@ This is my Personal Portfolio Website built using HTML, CSS, JavaScript, and Dja
 ---
   ## Screenshot
 
-![portfolio page](portfolio.jpg)
-![portfolio details](portfolio2.jpg1)
-![portfolio details](portfolio3.jpg2)
-![portfolio page](portfolio4.jpg3)
-![portfolio details](portfolio5.jpg4)
-![portfolio details](portfolio6.jpg5)
-![portfolio details](portfolio6.png6)
-![portfolio details](portfolio6.png7)
+![portfolio page](images/portfolio.jpg)
+![portfolio details](images/portfolio1.jpg1)
+![portfolio details](images/portfolio2.jpg2)
+![portfolio page](images/portfolio3.jpg3)
+![portfolio details](images/portfolio4.jpg4)
+![portfolio details](images/portfolio5.jpg5)
+![portfolio details](images/portfolio6.png6)
+![portfolio details](images/portfolio7.png7)
 
 ## 👨‍💻 Author
 
