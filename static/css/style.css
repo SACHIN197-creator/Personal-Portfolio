@@ -575,3 +575,398 @@ body::after{
         font-size:18px;
     }
 }
+/* EXPERIENCE */
+
+.experience-section{
+    width:90%;
+    margin:40px auto 80px;
+}
+
+.experience-title{
+
+text-align:center;
+
+margin-bottom:60px;
+
+}
+
+.experience-title h2{
+
+font-size:48px;
+
+margin-bottom:10px;
+
+}
+
+.experience-title p{
+
+color:#94a3b8;
+
+font-size:18px;
+
+}
+
+.experience-grid{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:35px;
+
+}
+
+.experience-card{
+    position: relative;
+    background: rgba(12,18,40,.75);
+    backdrop-filter: blur(18px);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:28px;
+    padding:28px;
+    overflow:hidden;
+    transition:.4s;
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+}
+
+.experience-card::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:5px;
+    background:linear-gradient(90deg,#3b82f6,#8b5cf6,#06b6d4);
+}
+
+.experience-card:hover{
+    transform:translateY(-12px);
+    border-color:#3b82f6;
+    box-shadow:
+    0 20px 60px rgba(59,130,246,.35),
+    0 0 30px rgba(139,92,246,.25);
+}
+
+.company img{
+
+width:70px;
+
+height:70px;
+
+border-radius:15px;
+
+background:white;
+
+padding:8px;
+
+}
+
+.company h3{
+
+font-size:26px;
+
+}
+
+.company span{
+
+color:#60a5fa;
+
+}
+
+.duration{
+
+display:inline-block;
+
+padding:8px 18px;
+
+background:#111827;
+
+border-radius:20px;
+
+margin-bottom:20px;
+
+color:#94a3b8;
+
+}
+
+.experience-card ul{
+
+padding-left:20px;
+
+margin-bottom:20px;
+
+}
+
+.experience-card li{
+
+margin-bottom:10px;
+
+color:#d1d5db;
+
+}
+
+.skills-used{
+
+display:flex;
+
+gap:10px;
+
+flex-wrap:wrap;
+
+margin-bottom:25px;
+
+}
+
+.skills-used span{
+
+padding:8px 16px;
+
+border-radius:25px;
+
+background:#1e293b;
+
+color:#60a5fa;
+
+}
+
+.experience-buttons a{
+
+display:inline-block;
+
+padding:12px 25px;
+
+background:linear-gradient(90deg,#2563eb,#9333ea);
+
+color:white;
+
+text-decoration:none;
+
+border-radius:12px;
+
+}
+
+.verified{
+
+position:absolute;
+
+top:20px;
+
+right:20px;
+
+color:#22c55e;
+
+font-weight:600;
+
+}
+
+@media(max-width:900px){
+
+.experience-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+.experience-card{
+
+background:#0d1328;
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:22px;
+
+padding:25px;
+
+margin-bottom:30px;
+
+}
+
+.experience-header{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+margin-bottom:25px;
+
+}
+
+.company-info{
+
+display:flex;
+
+align-items:center;
+
+gap:18px;
+
+}
+
+.company-logo{
+
+width:70px;
+
+height:70px;
+
+background:white;
+
+padding:8px;
+
+border-radius:14px;
+
+object-fit:contain;
+
+}
+
+.company-info h3{
+
+font-size:28px;
+
+margin-bottom:6px;
+
+}
+
+.company-info p{
+
+color:#60a5fa;
+
+}
+
+.verified{
+
+color:#22c55e;
+
+font-weight:600;
+
+}
+
+.experience-body{
+
+display:grid;
+
+grid-template-columns:2fr 1fr;
+
+gap:40px;
+
+align-items:center;
+
+}
+
+.tech-stack{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:10px;
+
+margin-bottom:20px;
+
+}
+
+.tech-stack span{
+
+background:#1e293b;
+
+padding:8px 18px;
+
+border-radius:30px;
+
+color:#60a5fa;
+
+font-size:14px;
+
+}
+
+.experience-left ul{
+
+padding-left:18px;
+
+line-height:2;
+
+color:#d1d5db;
+
+}
+
+.certificate{
+
+width:100%;
+
+border-radius:15px;
+
+transition:.4s;
+
+cursor:pointer;
+
+}
+
+.certificate:hover{
+
+transform:scale(1.05);
+
+}
+
+.view-btn{
+
+display:block;
+
+margin-top:18px;
+
+padding:14px;
+
+text-align:center;
+
+border-radius:12px;
+
+text-decoration:none;
+
+background:linear-gradient(90deg,#2563eb,#8b5cf6);
+
+color:white;
+
+font-weight:600;
+
+}
+@media(max-width:900px){
+
+.experience-body{
+
+grid-template-columns:1fr;
+
+}
+
+.company-info{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.experience-header{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+}
+.experience-right{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.certificate{
+    width:240px;
+    border-radius:12px;
+    margin-bottom:18px;   
+}
+
+.view-btn{
+    margin-top:10px;
+    padding:14px 26px;
+}
