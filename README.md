@@ -42,7 +42,7 @@ This is my Personal Portfolio Website built using HTML, CSS, JavaScript, and Dja
 ![portfolio page](images/portfolio3.jpg)
 ![portfolio details](images/portfolio4.jpg)
 ![portfolio details](images/portfolio5.jpg)
-![portfolio details](images/portfolio6.png)
+![portfolio details](images/portfolio6.6pg)
 ![portfolio details](images/portfolio7.png)
 
 ## 👨‍💻 Author
