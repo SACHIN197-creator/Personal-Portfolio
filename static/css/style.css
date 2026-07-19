@@ -970,3 +970,607 @@ gap:15px;
     margin-top:10px;
     padding:14px 26px;
 }
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+/* Large Laptop */
+@media (max-width:1400px){
+
+.hero{
+    gap:50px;
+}
+
+.hero-left h1{
+    font-size:70px;
+}
+
+.profile-card{
+    width:430px;
+}
+
+.profile-img{
+    width:260px;
+    height:260px;
+}
+
+}
+
+/* Laptop */
+@media (max-width:1200px){
+
+.navbar{
+    padding:15px 25px;
+}
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+    padding-top:40px;
+}
+
+.hero-left,
+.hero-right{
+    width:100%;
+}
+
+.hero-buttons{
+    justify-content:center;
+}
+
+.stats{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.about-skills{
+    grid-template-columns:1fr;
+}
+
+.skills-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.projects-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.experience-grid{
+    grid-template-columns:1fr;
+}
+
+}
+
+/* Tablet */
+@media (max-width:992px){
+
+.logo{
+    font-size:30px;
+}
+
+.nav-links{
+    gap:20px;
+}
+
+.hero-left h1{
+    font-size:55px;
+}
+
+.hero-desc{
+    font-size:18px;
+}
+
+.profile-card{
+    width:100%;
+    max-width:420px;
+}
+
+.profile-img{
+    width:220px;
+    height:220px;
+}
+
+.section-header{
+    flex-direction:column;
+    gap:20px;
+    text-align:center;
+}
+
+.skills-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.projects-grid{
+    grid-template-columns:1fr;
+}
+
+.contact-form{
+    width:100%;
+}
+
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+.navbar{
+    flex-direction:column;
+    padding:15px;
+    gap:15px;
+}
+
+.nav-links{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+}
+
+.nav-links a{
+    font-size:15px;
+}
+
+.hero{
+    min-height:auto;
+    padding:40px 15px;
+}
+
+.hero-left h1{
+    font-size:42px;
+}
+
+.hero-desc{
+    font-size:17px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+    align-items:center;
+}
+
+.primary-btn,
+.secondary-btn{
+    width:100%;
+    max-width:320px;
+    text-align:center;
+}
+
+.stats{
+    grid-template-columns:1fr;
+}
+
+.about-skills{
+    gap:20px;
+}
+
+.skills-grid{
+    grid-template-columns:1fr;
+}
+
+.projects-grid{
+    grid-template-columns:1fr;
+}
+
+.project-card img{
+    height:200px;
+}
+
+.profile-card{
+    padding:25px;
+}
+
+.profile-img{
+    width:180px;
+    height:180px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    font-size:16px;
+}
+
+.contact-section h2,
+.section-header h2{
+    font-size:35px;
+}
+
+.about-box h2,
+.skills-box h2{
+    font-size:30px;
+}
+
+}
+
+/* Small Mobile */
+@media (max-width:480px){
+
+body{
+    overflow-x:hidden;
+}
+
+.hero-left h1{
+    font-size:34px;
+}
+
+.hero-desc{
+    font-size:16px;
+}
+
+.logo{
+    font-size:26px;
+}
+
+.profile-img{
+    width:150px;
+    height:150px;
+}
+
+.project-content h3{
+    font-size:24px;
+}
+
+.stat-box h2{
+    font-size:28px;
+}
+
+.primary-btn,
+.secondary-btn{
+    padding:15px;
+}
+
+}
+.experience-grid{
+
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:25px;
+
+}
+
+@media(max-width:992px){
+
+.experience-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.experience-body{
+
+flex-direction:column;
+align-items:center;
+
+}
+
+.experience-left,
+.experience-right{
+
+width:100%;
+
+}
+
+.experience-header{
+
+flex-direction:column;
+text-align:center;
+gap:15px;
+
+}
+
+.company-info{
+
+flex-direction:column;
+text-align:center;
+
+}
+
+.certificate{
+
+width:100%;
+max-width:280px;
+
+}
+
+}
+img{
+
+max-width:100%;
+height:auto;
+display:block;
+
+}
+/*================ RESPONSIVE IMAGES ================*/
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+/*================ HERO RESPONSIVE ================*/
+
+.hero-left h1{
+    font-size:clamp(42px,6vw,90px);
+    line-height:1.2;
+}
+
+@media(max-width:768px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+    gap:40px;
+    padding-top:40px;
+}
+
+.hero-left{
+    width:100%;
+}
+
+.hero-desc{
+    max-width:100%;
+    font-size:17px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+}
+
+.primary-btn,
+.secondary-btn{
+    width:100%;
+}
+
+}
+/*================ NAVBAR RESPONSIVE ================*/
+
+@media(max-width:768px){
+
+.navbar{
+
+padding:15px;
+flex-direction:column;
+gap:20px;
+
+}
+
+.logo{
+
+font-size:28px;
+
+}
+
+.nav-links{
+
+width:100%;
+justify-content:center;
+flex-wrap:wrap;
+gap:18px;
+
+}
+
+.nav-links a{
+
+font-size:15px;
+
+}
+
+.talk-btn{
+
+width:100%;
+text-align:center;
+
+}
+
+}
+/*================ STATS RESPONSIVE ================*/
+
+@media(max-width:768px){
+
+.stats{
+
+grid-template-columns:1fr;
+gap:15px;
+
+}
+
+.stat-box{
+
+padding:20px;
+
+}
+
+}
+/*================ PROFILE CARD ================*/
+
+@media(max-width:768px){
+
+.profile-card{
+
+width:100%;
+max-width:350px;
+padding:25px;
+
+}
+
+.profile-img{
+
+width:180px;
+height:180px;
+
+}
+
+.available{
+
+position:static;
+margin-bottom:20px;
+justify-content:center;
+
+}
+
+}
+/*================ ABOUT & SKILLS ================*/
+
+@media(max-width:768px){
+
+.about-skills{
+
+grid-template-columns:1fr;
+gap:25px;
+
+}
+
+.skills-header{
+
+flex-direction:column;
+gap:15px;
+
+}
+
+.skills-header button{
+
+width:100%;
+
+}
+
+.skills-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+/*================ EXPERIENCE ================*/
+
+@media(max-width:768px){
+
+.experience-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.experience-card{
+
+padding:18px;
+
+}
+
+.experience-header{
+
+flex-direction:column;
+align-items:flex-start;
+gap:15px;
+
+}
+
+.company-info{
+
+width:100%;
+
+}
+
+.company-logo{
+
+width:55px;
+height:55px;
+
+}
+
+.company-info h3{
+
+font-size:22px;
+
+}
+
+.experience-body{
+
+flex-direction:column;
+gap:20px;
+
+}
+
+.experience-left{
+
+width:100%;
+
+}
+
+.experience-right{
+
+width:100%;
+text-align:center;
+
+}
+
+.tech-stack{
+
+justify-content:center;
+
+}
+
+.certificate{
+
+width:100%;
+max-width:240px;
+margin:auto;
+
+}
+
+.experience-buttons{
+
+justify-content:center;
+
+}
+
+}
+/*================ PROJECTS ================*/
+
+@media(max-width:768px){
+
+.projects-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.project-card img{
+
+height:200px;
+
+}
+
+.project-content h3{
+
+font-size:24px;
+
+}
+
+}
+/*================ CONTACT ================*/
+
+@media(max-width:768px){
+
+.contact-form{
+
+width:100%;
+
+}
+
+.contact-form input,
+.contact-form textarea{
+
+font-size:16px;
+
+}
+
+}
+/*================ FOOTER ================*/
+
+@media(max-width:768px){
+
+.footer{
+
+padding:25px;
+font-size:15px;
+
+}
+
+}
